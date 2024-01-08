@@ -1,520 +1,624 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta name="robots" content="index, follow" />
+    <meta
+      name="google-site-verification"
+      content="nCrNnnOOI4lOqJLpv2B3GiKQYVhBjIMcJGPVhLDBzWU"
+    />
+    <meta
+      name="description"
+      content="Jino Manoj John is a freelance UI Designer and Web Developer currently based in Kochi,India. I create thoughtful and clean interfaces for the android and ios application."
+    />
+    <meta
+      name="keywords"
+      content=" Jino, Manoj, John, HTML, CSS, JavaScript, Figma, Adobe XD, UI, UX, Designing, Web, Developer, SQL, personal, portfolio, flutter"
+    />
+    <meta name="author" content="Jino John" />
+    <link
+      type="image/png"
+      sizes="16x16"
+      rel="icon"
+      href="assets/images/favicon-16.png"
+    />
+    <link
+      type="image/png"
+      sizes="32x32"
+      rel="icon"
+      href="assets/images/favicon-32.png"
+    />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="viewport"
-    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <meta name="robots" content="index, follow" />
-  <meta name="google-site-verification" content="nCrNnnOOI4lOqJLpv2B3GiKQYVhBjIMcJGPVhLDBzWU" />
-  <meta name="description"
-    content="Jino Manoj John is a freelance UI Designer and Web Developer currently based in Kochi,India. I create thoughtful and clean interfaces for the android and ios application.">
-  <meta name="keywords"
-    content=" Jino, Manoj, John, HTML, CSS, JavaScript, Figma, Adobe XD, UI, UX, Designing, Web, Developer, SQL, personal, portfolio, flutter">
-  <meta name="author" content="Jino John">
-  <link type="image/png" sizes="16x16" rel="icon" href="assets/images/favicon-16.png">
-  <link type="image/png" sizes="32x32" rel="icon" href="assets/images/favicon-32.png">
+    <!--==================== UNICONS ====================-->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
 
-  <!--==================== UNICONS ====================-->
-  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="assets\css\swiper-bundle.min.css" />
 
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="assets\css\styles.css" />
 
+    <title>Jino Manoj John - Web Developer & UI Designer</title>
+  </head>
 
-  <!--==================== SWIPER CSS ====================-->
-  <link rel="stylesheet" href="assets\css\swiper-bundle.min.css">
+  <body>
+    <!-- <div id="loading"></div> -->
 
-  <!--==================== CSS ====================-->
-  <link rel="stylesheet" href="assets\css\styles.css">
-
-
-
-  <title>Jino Manoj John - Web Developer & UI Designer</title>
-</head>
-
-<body>
-
-  <!-- <div id="loading"></div> -->
-
-
-  <!--==================== HEADER ====================-->
-  <header class="header" id="header">
-    <nav class="container nav">
-      <a href="" class="nav__logo">Jino Manoj John</a>
-      <div class="nav__menu" id="nav-menu">
-        <ul class="nav__list grid">
-          <li class="nav__item">
-            <a href="#home" class="nav__link"><i class="uil uil-estate nav__icon"></i>Home</a>
-          </li>
-          <li class="nav__item">
-            <a href="#about" class="nav__link"><i class="uil uil-user nav__icon"></i>About</a>
-          </li>
-          <li class="nav__item">
-            <a href="#skills" class="nav__link"><i class="uil uil-file-alt nav__icon"></i>Skills</a>
-          </li>
-          <li class="nav__item">
-            <a href="#portfolio" class="nav__link"><i class="uil uil-scenery nav__icon"></i>Portfolio</a>
-          </li>
-        </ul>
-        <i class="uil uil-times nav__close" id="nav-close"></i>
-      </div>
-      <div class="nav__btns">
-        <!-- =======theme change button======= -->
-        <!-- <i class="uil uil-moon change-theme" id="theme-button"></i> -->
-        <div class="nav__toggle" id="nav-toggle">
-          <i class="uil uil-apps"></i>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="container nav">
+        <a href="" class="nav__logo">Jino Manoj John</a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#home" class="nav__link"
+                ><i class="uil uil-estate nav__icon"></i>Home</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link"
+                ><i class="uil uil-user nav__icon"></i>About</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link"
+                ><i class="uil uil-file-alt nav__icon"></i>Skills</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="#portfolio" class="nav__link"
+                ><i class="uil uil-scenery nav__icon"></i>Portfolio</a
+              >
+            </li>
+          </ul>
+          <i class="uil uil-times nav__close" id="nav-close"></i>
         </div>
-      </div>
-    </nav>
+        <div class="nav__btns">
+          <!-- =======theme change button======= -->
+          <!-- <i class="uil uil-moon change-theme" id="theme-button"></i> -->
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
 
-  </header>
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content grid">
+            <div class="home__social">
+              <a
+                href="https://in.linkedin.com/in/jinomanojjohn"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-linkedin-alt"></i>
+              </a>
 
-  <!--==================== MAIN ====================-->
-  <main class="main">
-    <!--==================== HOME ====================-->
-    <section class="home section" id="home">
-      <div class="home__container container grid">
-        <div class="home__content grid">
-          <div class="home__social">
-            <a href="https://in.linkedin.com/in/thejinojohn" target="_blank" class="home__social-icon">
-              <i class="uil uil-linkedin-alt"></i>
+              <a
+                href="https://github.com/jinomanojjohn"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-github-alt"></i>
+              </a>
 
+              <a
+                href="http://instagram.com/jino.m.john/"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-instagram"></i>
+              </a>
+            </div>
+
+            <div class="home__img">
+              <img
+                src="assets/images/main_ill.svg"
+                alt="ui-illustration"
+                class="ill1"
+              />
+            </div>
+            <div class="home__data">
+              <h1 class="home__title">Hi, I'm Jino</h1>
+              <h3 class="home__subtitle">
+                I'm a <span class="auto-input"></span>
+              </h3>
+              <p class="home__description">
+                I'm a self-taught, independent web developer based in Kerala,
+                with a focus on creating engaging and user-friendly front-end
+                designs. This portfolio showcases my latest projects and
+                highlights my passion for creating intuitive and visually
+                stunning web experiences.
+              </p>
+              <a
+                download=""
+                href="assets/pdf/Resume.pdf"
+                class="button button--flex"
+                >Download Resume
+                <i class="uil uil-download-alt button__icon"></i
+              ></a>
+            </div>
+          </div>
+          <div class="home__scroll">
+            <a href="#about" class="home__scroll-button button--flex">
+              <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+              <span class="home__scroll-name">Scroll down</span>
+              <i class="uil uil-arrow-down home__scroll-arrow"></i>
             </a>
+          </div>
+        </div>
+      </section>
 
-            <a href="https://github.com/jinomanojjohn" target="_blank" class="home__social-icon">
-              <i class="uil uil-github-alt"></i>
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <h2 class="section__title">About Me</h2>
+        <span class="section__subtitle">My Introduction</span>
+        <div class="container about__container">
+          <div
+            style="
+              display: flex;
+              justify-content: center;
+              padding: 10px;
+              padding-top: 2px;
+            "
+          >
+            <div
+              class="badge-base LI-profile-badge"
+              data-locale="en_US"
+              data-size="large"
+              data-theme="dark"
+              data-type="HORIZONTAL"
+              data-vanity="jinomanojjohn"
+              data-version="v1"
+            >
+              <a
+                class="badge-base__link LI-simple-link"
+                href="https://in.linkedin.com/in/jinomanojjohn?trk=profile-badge"
+              ></a>
+            </div>
+          </div>
 
-            </a>
+          <!-- <img src="assets/images/" alt="" class="about__img"> -->
+          <div class="about__data">
+            <p class="about__description">
+              Hello there! My name is Jino and I'm a self-taught developer with
+              over 5 years of experience in coding. My journey began with C++
+              and I gradually picked up Python, C, Git, and JavaScript along the
+              way. I have a passion for web developing and designing, with a
+              particular focus on UI, and I'm proficient in creating wireframes
+              and prototypes for both Android applications and websites. <br />
+              <br />In addition to my love for UI designing, I'm also interested
+              in Full-Stack Web Developement
+            </p>
+            <div class="about__info">
+              <div class="">
+                <span class="about__info-title">05+</span>
+                <span class="about__info-name"
+                  >Years <br />
+                  experience</span
+                >
+              </div>
+              <div class="">
+                <span class="about__info-title">25+</span>
+                <span class="about__info-name"
+                  >Projects <br />
+                  completed</span
+                >
+              </div>
+              <div class="">
+                <span class="about__info-title">300+</span>
+                <span class="about__info-name"
+                  >Designs <br />
+                  created</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-            <a href="http://instagram.com/jino.m.john/" target="_blank" class="home__social-icon">
+      <!--==================== SKILLS ====================-->
+      <section class="skills section" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <span class="section__subtitle">My Technical Level</span>
+        <div class="skills__container skilldock container grid">
+          <div class="skills__container">
+            <!-- =========skill list ======== -->
+            <div class="skills__content skills__open">
+              <div class="skills__header">
+                <i class="uil uil-brackets-curly skills__icon"></i>
+                <div class="">
+                  <h1 class="skills__title">Frontend</h1>
+                </div>
+                <i class="uil uil-angle-down skills__arrow"></i>
+              </div>
+              <div class="skills__list grid">
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">HTML</h3>
+                    <span class="skills__number">100%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__html"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">CSS</h3>
+                    <span class="skills__number">100%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__css"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">JavaScript</h3>
+                    <span class="skills__number">85%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__js"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">React</h3>
+                    <span class="skills__number">35%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__react"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- ======= skill 2======= -->
+
+            <div class="skills__content skills__close">
+              <div class="skills__header">
+                <i class="uil uil-server-network skills__icon"></i>
+                <div class="">
+                  <h1 class="skills__title">Backend</h1>
+                  <!-- <span class="skills__subtitle">recently started working</span> -->
+                </div>
+                <i class="uil uil-angle-down skills__arrow"></i>
+              </div>
+              <div class="skills__list grid">
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">PHP</h3>
+                    <span class="skills__number">85%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__php"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">NodeJS</h3>
+                    <span class="skills__number">50%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__node"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">MySQL</h3>
+                    <span class="skills__number">80%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__mysql"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- ========skill 3 ======== -->
+
+            <div class="skills__content skills__close">
+              <div class="skills__header">
+                <i class="uil uil-swatchbook skills__icon"></i>
+                <div class="">
+                  <h1 class="skills__title">Designing</h1>
+                </div>
+                <i class="uil uil-angle-down skills__arrow"></i>
+              </div>
+              <div class="skills__list grid">
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Figma</h3>
+                    <span class="skills__number">95%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__figma"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Adobe XD</h3>
+                    <span class="skills__number">80%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__sketch"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Photoshop</h3>
+                    <span class="skills__number">45%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__photoshop"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- ========skill 4 ======== -->
+            <div class="skills__content skills__close">
+              <div class="skills__header">
+                <i class="uil uil-octagon skills__icon"></i>
+                <div class="">
+                  <h1 class="skills__title">Other</h1>
+                </div>
+                <i class="uil uil-angle-down skills__arrow"></i>
+              </div>
+              <div class="skills__list grid">
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Python</h3>
+                    <span class="skills__number">70%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__python"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Java</h3>
+                    <span class="skills__number">35%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__java"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Flutter</h3>
+                    <span class="skills__number">50%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__flutter"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Git & GitHub</h3>
+                    <span class="skills__number">90%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__github"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== PORTFOLIO ====================-->
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">Portfolio</h2>
+        <span class="section__subtitle">My Projects</span>
+
+        <div class="portfolio__container container swiper-container mySwiper">
+          <div class="swiper-wrapper">
+            <!-- =================portfolio 1========== -->
+            <div class="portfolio__content grid swiper-slide">
+              <h3 class="portfolio__title">Garage Management System</h3>
+              <img
+                src="assets/projects/gms.webp"
+                alt=""
+                class="portfolio__img"
+              />
+              <div class="portfolio__data">
+                <a
+                  href="https://github.com/jinomanojjohn/garage_management_system"
+                  target="_blank"
+                  class="button button--flex portfolio__button"
+                >
+                  GitHub
+                  <i class="uil uil-arrow-right button__icon"></i
+                ></a>
+              </div>
+            </div>
+
+            <!-- =================portfolio 2========== -->
+
+            <div class="portfolio__content grid swiper-slide">
+              <h3 class="portfolio__title">Al Ameen Voyage</h3>
+              <img
+                src="assets/projects/voyage.webp"
+                alt=""
+                class="portfolio__img"
+              />
+              <div class="portfolio__data">
+                <a
+                  href="https://alameenvoyage.com/"
+                  target="_blank"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Live
+                  <i class="uil uil-web-grid button__icon"></i>
+                </a>
+                <a
+                  href="https://github.com/jinomanojjohn/alameen_voyage"
+                  target="_blank"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  GitHub
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+            <!-- =================portfolio 3========== -->
+
+            <div class="portfolio__content grid swiper-slide">
+              <h3 class="portfolio__title">DigifyGarden</h3>
+              <img
+                src="assets/projects/garden.webp"
+                alt=""
+                class="portfolio__img"
+              />
+              <div class="portfolio__data">
+                <a
+                  href="https://www.digifygarden.com/"
+                  target="_blank"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Live
+                  <i class="uil uil-web-grid button__icon"></i>
+                </a>
+                <a
+                  href="https://github.com/jinomanojjohn/digifygarden"
+                  target="_blank"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  GitHub
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+            <!-- =================portfolio 4========== -->
+
+            <div class="portfolio__content grid swiper-slide">
+              <h3 class="portfolio__title">AISSPACE</h3>
+              <img
+                src="assets/projects/aisspace.webp"
+                alt=""
+                class="portfolio__img"
+              />
+              <div class="portfolio__data">
+                <a
+                  href="https://www.aisspace.com//"
+                  target="_blank"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Live
+                  <i class="uil uil-web-grid button__icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- ======== arrows========= -->
+          <div class="swiper-button-next">
+            <i class="uil uil-angle-right swiper-portfolio-icon"></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="uil uil-angle-left swiper-portfolio-icon"></i>
+          </div>
+
+          <!-- ==========pagination========= -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__bg">
+        <div class="footer__container container grid">
+          <div class="">
+            <h1 class="footer__title">Jino Manoj John</h1>
+            <span class="footer__subtitle">
+              <a
+                href="https://www.instagram.com/jino.m.john"
+                target="_blank"
+                class="footer__social"
+              >
+                Instagram:- @jino.m.john
+              </a>
+            </span>
+          </div>
+          <div class="footer__socials">
+            <a
+              href="https://www.instagram.com/jino.m.john"
+              target="_blank"
+              class="footer__social"
+            >
               <i class="uil uil-instagram"></i>
-
+            </a>
+            <a
+              href="https://in.linkedin.com/in/jinomanojjohn"
+              target="_blank"
+              class="footer__social"
+            >
+              <i class="uil uil-linkedin-alt"></i>
+            </a>
+            <a
+              href="https://discordapp.com/users/488949430867984384"
+              target="_blank"
+              class="footer__social"
+            >
+              <i class="uil uil-discord"></i>
             </a>
           </div>
-
-          <div class="home__img">
-            <img src="assets/images/main_ill.svg" alt="ui-illustration" class="ill1"></img>
-          </div>
-          <div class="home__data">
-            <h1 class="home__title">
-              Hi, I'm Jino
-            </h1>
-            <h3 class="home__subtitle">I'm a <span class="auto-input"></span></h3>
-            <p class="home__description">I'm a self-taught, independent web developer based in Kerala, with a focus on
-              creating engaging and user-friendly front-end designs. This portfolio showcases my latest projects and
-              highlights my passion for creating intuitive and visually stunning web experiences.</p>
-            <a Download="" href="assets/pdf/Resume.pdf" class="button button--flex">Download Resume <i
-                class="uil uil-download-alt button__icon"></i></a>
-          </div>
-        </div>
-        <div class="home__scroll">
-          <a href="#about" class="home__scroll-button button--flex">
-            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
-            <span class="home__scroll-name">Scroll down</span>
-            <i class="uil uil-arrow-down home__scroll-arrow"></i>
-          </a>
         </div>
       </div>
-
-
-    </section>
-
-    <!--==================== ABOUT ====================-->
-    <section class=" about section" id="about">
-      <h2 class="section__title">About Me</h2>
-      <span class="section__subtitle">My Introduction</span>
-      <div class="container about__container">
-        <!-- <img src="assets/images/" alt="" class="about__img"> -->
-        <div class="about__data">
-          <p class="about__description">Hello there! My name is Jino and I'm a self-taught developer with over 5
-            years of experience in coding. My journey began with C++ and I gradually picked up Python, C, Git, and
-            JavaScript along the way. I have a passion for web developing and designing, with a particular focus on UI,
-            and I'm proficient in creating wireframes and prototypes for both Android applications and websites. <br>
-            <br>In addition to my love for UI designing, I'm also interested in Full-Stack Web Developement
-          </p>
-          <div class="about__info">
-            <div class="">
-              <span class="about__info-title">05+</span>
-              <span class="about__info-name">Years <br> experience</span>
-            </div>
-            <div class="">
-              <span class="about__info-title">25+</span>
-              <span class="about__info-name">Projects <br> completed</span>
-            </div>
-            <div class="">
-              <span class="about__info-title">300+</span>
-              <span class="about__info-name">Designs <br> created</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!--==================== SKILLS ====================-->
-    <section class="skills section" id="skills">
-      <h2 class="section__title">Skills</h2>
-      <span class="section__subtitle">My Technical Level</span>
-      <div class="skills__container skilldock container grid">
-        <div class="skills__container">
-          <!-- =========skill list ======== -->
-          <div class="skills__content skills__open">
-            <div class="skills__header">
-              <i class="uil uil-brackets-curly skills__icon"></i>
-              <div class="">
-                <h1 class="skills__title">Frontend </h1>
-              </div>
-              <i class="uil uil-angle-down skills__arrow"></i>
-
-            </div>
-            <div class="skills__list grid">
-
-
-              <div class="skills__data">
-                <div class="skills__titles">
-                  <h3 class="skills__name">HTML</h3>
-                  <span class="skills__number">100%</span>
-                </div>
-                <div class="skills__bar">
-                  <span class="skills__percentage skills__html"></span>
-                </div>
-              </div>
-
-              <div class="skills__data">
-                <div class="skills__titles">
-                  <h3 class="skills__name">CSS</h3>
-                  <span class="skills__number">100%</span>
-                </div>
-                <div class="skills__bar">
-                  <span class="skills__percentage skills__css"></span>
-                </div>
-              </div>
-
-              <div class="skills__data">
-                <div class="skills__titles">
-                  <h3 class="skills__name">JavaScript</h3>
-                  <span class="skills__number">85%</span>
-                </div>
-                <div class="skills__bar">
-                  <span class="skills__percentage skills__js"></span>
-                </div>
-              </div>
-
-              <div class="skills__data">
-                <div class="skills__titles">
-                  <h3 class="skills__name">React</h3>
-                  <span class="skills__number">35%</span>
-                </div>
-                <div class="skills__bar">
-                  <span class="skills__percentage skills__react"></span>
-                </div>
-              </div>
-
-            </div>
-          </div>
-
-
-          <!-- ======= skill 2======= -->
-
-          <div class="skills__content skills__close">
-            <div class="skills__header">
-              <i class="uil uil-server-network skills__icon"></i>
-              <div class="">
-                <h1 class="skills__title">Backend</h1>
-                <!-- <span class="skills__subtitle">recently started working</span> -->
-              </div>
-              <i class="uil uil-angle-down skills__arrow"></i>
-
-            </div>
-            <div class="skills__list grid">
-
-
-              <div class="skills__data">
-                <div class="skills__titles">
-                  <h3 class="skills__name">PHP</h3>
-                  <span class="skills__number">85%</span>
-                </div>
-                <div class="skills__bar">
-                  <span class="skills__percentage skills__php"></span>
-                </div>
-              </div>
-
-              <div class="skills__data">
-                <div class="skills__titles">
-                  <h3 class="skills__name">NodeJS</h3>
-                  <span class="skills__number">50%</span>
-                </div>
-                <div class="skills__bar">
-                  <span class="skills__percentage skills__node"></span>
-                </div>
-              </div>
-
-              <div class="skills__data">
-                <div class="skills__titles">
-                  <h3 class="skills__name">MySQL</h3>
-                  <span class="skills__number">80%</span>
-                </div>
-                <div class="skills__bar">
-                  <span class="skills__percentage skills__mysql"></span>
-                </div>
-              </div>
-
-            </div>
-          </div>
-
-
-
-
-          <!-- ========skill 3 ======== -->
-
-          <div class="skills__content skills__close">
-            <div class="skills__header">
-              <i class="uil uil-swatchbook skills__icon"></i>
-              <div class="">
-                <h1 class="skills__title">Designing</h1>
-              </div>
-              <i class="uil uil-angle-down skills__arrow"></i>
-
-            </div>
-            <div class="skills__list grid">
-
-
-              <div class="skills__data">
-                <div class="skills__titles">
-                  <h3 class="skills__name">Figma</h3>
-                  <span class="skills__number">95%</span>
-                </div>
-                <div class="skills__bar">
-                  <span class="skills__percentage skills__figma"></span>
-                </div>
-              </div>
-
-              <div class="skills__data">
-                <div class="skills__titles">
-                  <h3 class="skills__name">Adobe XD</h3>
-                  <span class="skills__number">80%</span>
-                </div>
-                <div class="skills__bar">
-                  <span class="skills__percentage skills__sketch"></span>
-                </div>
-              </div>
-
-              <div class="skills__data">
-                <div class="skills__titles">
-                  <h3 class="skills__name">Photoshop</h3>
-                  <span class="skills__number">45%</span>
-                </div>
-                <div class="skills__bar">
-                  <span class="skills__percentage skills__photoshop"></span>
-                </div>
-              </div>
-
-
-
-            </div>
-          </div>
-
-          <!-- ========skill 4 ======== -->
-          <div class="skills__content skills__close">
-            <div class="skills__header">
-              <i class="uil uil-octagon skills__icon"></i>
-              <div class="">
-                <h1 class="skills__title">Other</h1>
-              </div>
-              <i class="uil uil-angle-down skills__arrow"></i>
-
-            </div>
-            <div class="skills__list grid">
-
-              <div class="skills__data">
-                <div class="skills__titles">
-                  <h3 class="skills__name">Python</h3>
-                  <span class="skills__number">70%</span>
-                </div>
-                <div class="skills__bar">
-                  <span class="skills__percentage skills__python"></span>
-                </div>
-              </div>
-
-              <div class="skills__data">
-                <div class="skills__titles">
-                  <h3 class="skills__name">Java</h3>
-                  <span class="skills__number">35%</span>
-                </div>
-                <div class="skills__bar">
-                  <span class="skills__percentage skills__java"></span>
-                </div>
-              </div>
-
-              <div class="skills__data">
-                <div class="skills__titles">
-                  <h3 class="skills__name">Flutter</h3>
-                  <span class="skills__number">50%</span>
-                </div>
-                <div class="skills__bar">
-                  <span class="skills__percentage skills__flutter"></span>
-                </div>
-              </div>
-
-              <div class="skills__data">
-                <div class="skills__titles">
-                  <h3 class="skills__name">Git & GitHub</h3>
-                  <span class="skills__number">90%</span>
-                </div>
-                <div class="skills__bar">
-                  <span class="skills__percentage skills__github"></span>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-
-    <!--==================== PORTFOLIO ====================-->
-    <section class="portfolio section" id="portfolio">
-      <h2 class="section__title">Portfolio</h2>
-      <span class="section__subtitle">My Projects</span>
-
-      <div class="portfolio__container container swiper-container mySwiper">
-        <div class="swiper-wrapper">
-          <!-- =================portfolio 1========== -->
-          <div class="portfolio__content grid swiper-slide">
-            <h3 class="portfolio__title">Garage Management System</h3>
-            <img src="assets/projects/gms.webp" alt="" class="portfolio__img">
-            <div class="portfolio__data">
-              <a href="https://github.com/jinomanojjohn/garage_management_system" target="_blank"
-                class="button button--flex portfolio__button">
-                GitHub
-                <i class="uil uil-arrow-right button__icon"></i></a>
-            </div>
-          </div>
-
-
-          <!-- =================portfolio 2========== -->
-
-          <div class="portfolio__content grid swiper-slide">
-            <h3 class="portfolio__title">Al Ameen Voyage</h3>
-            <img src="assets/projects/voyage.webp" alt="" class="portfolio__img">
-            <div class="portfolio__data">
-              <a href="https://alameenvoyage.com/" target="_blank"
-                class="button button--flex button--small portfolio__button">
-                Live
-                <i class="uil uil-web-grid button__icon"></i>
-              </a>
-              <a href="https://github.com/jinomanojjohn/alameen_voyage" target="_blank"
-                class="button button--flex button--small portfolio__button">
-                GitHub
-                <i class="uil uil-arrow-right button__icon"></i>
-              </a>
-            </div>
-          </div>
-          <!-- =================portfolio 3========== -->
-
-          <div class="portfolio__content grid swiper-slide">
-            <h3 class="portfolio__title">DigifyGarden</h3>
-            <img src="assets/projects/garden.webp" alt="" class="portfolio__img">
-            <div class="portfolio__data">
-              <a href="https://www.digifygarden.com/" target="_blank"
-                class="button button--flex button--small portfolio__button">
-                Live
-                <i class="uil uil-web-grid button__icon"></i>
-              </a>
-              <a href="https://github.com/jinomanojjohn/digifygarden" target="_blank"
-                class="button button--flex button--small portfolio__button">
-                GitHub
-                <i class="uil uil-arrow-right button__icon"></i>
-              </a>
-            </div>
-          </div>
-          <!-- =================portfolio 4========== -->
-
-          <div class="portfolio__content grid swiper-slide">
-            <h3 class="portfolio__title">AISSPACE</h3>
-            <img src="assets/projects/aisspace.webp" alt="" class="portfolio__img">
-            <div class="portfolio__data">
-              <a href="https://www.aisspace.com//" target="_blank"
-                class="button button--flex button--small portfolio__button">
-                Live
-                <i class="uil uil-web-grid button__icon"></i>
-              </a>
-            </div>
-          </div>
-
-
-        </div>
-        <!-- ======== arrows========= -->
-        <div class="swiper-button-next"><i class="uil uil-angle-right swiper-portfolio-icon"></i></div>
-        <div class="swiper-button-prev"><i class="uil uil-angle-left swiper-portfolio-icon"></i></div>
-
-        <!-- ==========pagination========= -->
-        <div class="swiper-pagination"></div>
-
-      </div>
-
-    </section>
-
-  </main>
-
-  <!--==================== FOOTER ====================-->
-  <footer class="footer">
-    <div class="footer__bg">
-      <div class="footer__container container grid">
-        <div class="">
-          <h1 class="footer__title">Jino Manoj John</h1>
-          <span class="footer__subtitle">
-            <a href="https://www.instagram.com/jino.m.john" target="_blank" class="footer__social">
-              Instagram:- @jino.m.john
-            </a>
-          </span>
-        </div>
-        <div class="footer__socials">
-
-          <a href="https://www.instagram.com/jino.m.john" target="_blank" class="footer__social">
-            <i class="uil uil-instagram"></i>
-          </a>
-
-          <a href="https://discordapp.com/users/488949430867984384" target="_blank" class="footer__social">
-            <i class="uil uil-discord"></i>
-          </a>
-
-        </div>
-      </div>
-
-    </div>
-
-
-
-  </footer>
-
-
-  <!--==================== SCROLL TOP ====================-->
-  <a href="#" class="scrollup" id="scroll-up">
-    <i class="uil uil-arrow-up scrollup__icon"></i>
-  </a>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <!--==================== SWIPER JS ====================-->
-  <script src="assets/js/swiper-bundle.min.js"></script>
-
-  <!--==================== MAIN JS ====================-->
-  <script src="assets/js/main.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-
-
-
-
-  <script>
-    var typed = new Typed(".auto-input", {
-      strings: ["User Interface Designer", "Full Stack Web Developer", "Programmer",],
-      typeSpeed: 50,
-      backSpeed: 10,
-      loop: true
-    })
-  </script>
-
-
-</body>
-
+    </footer>
+
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!--==================== SWIPER JS ====================-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script
+      src="https://platform.linkedin.com/badges/js/profile.js"
+      async
+      defer
+      type="text/javascript"
+    ></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="assets/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script>
+      var typed = new Typed(".auto-input", {
+        strings: [
+          "User Interface Designer",
+          "Full Stack Web Developer",
+          "Programmer",
+        ],
+        typeSpeed: 50,
+        backSpeed: 10,
+        loop: true,
+      });
+    </script>
+  </body>
 </html>
